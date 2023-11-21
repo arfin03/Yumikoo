@@ -4,9 +4,9 @@ from os import getenv
 
 API_ID = int(getenv("API_ID", "25826048"))
 API_HASH = getenv("API_HASH", "b486ee260537697fdfc56b2b61cbc049")
-BOT_USERNAME = getenv("BOT_USERNAME", "Matrixs_X_RVA_bot")
+BOT_USERNAME = getenv("BOT_USERNAME", "naruto_renamer_robot")
 COMMAND_HANDLER = ["/", "!"]
-BOT_TOKEN = getenv("BOT_TOKEN", "6374070501:AAGP4z2-jXg3qfYpzCOazeHSUAYiNzQvHvQ")
+BOT_TOKEN = getenv("BOT_TOKEN", "6881733978:AAEJWAsLegNjXdzWGrpVUDGk22RZs6hXqjw")
 OWNER_ID = int(getenv("OWNER_ID", "6584511650"))
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6584511650").split()))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=majority")
