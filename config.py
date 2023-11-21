@@ -4,7 +4,7 @@ from os import getenv
 
 API_ID = int(getenv("API_ID", "25826048"))
 API_HASH = getenv("API_HASH", "b486ee260537697fdfc56b2b61cbc049")
-BOT_USERNAME = getenv("BOT_USERNAME", "Matrixs_X_RVA_bot)
+BOT_USERNAME = getenv("BOT_USERNAME", "Matrixs_X_RVA_bot")
 COMMAND_HANDLER = ["/", "!"]
 BOT_TOKEN = getenv("BOT_TOKEN", "6374070501:AAGP4z2-jXg3qfYpzCOazeHSUAYiNzQvHvQ")
 OWNER_ID = int(getenv("OWNER_ID", "6584511650"))
